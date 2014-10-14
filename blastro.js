@@ -37,9 +37,8 @@ exports.returnAllPlanets = function(obs) {
 		objData.name = bodies[obj].name.trim();
 		objData.rightAscension = hmsstring(bodies[obj].ra/15);
 		objData.declination = anglestring(bodies[obj].dec,false,true);
-		objData.elong = (fixnum(bodies[obj].elong,6,1) + "&deg;" + (pa >= 180 ? " W" : " E")).trim();
+		objData.elong = (fixnum(bodies[obj].elong,6,1) + "° " + (pa >= 180 ? " W" : " E")).trim();
 		objData.dist = bodies[obj].dist;
-
 
 		result.coords.push(objData);
 	}

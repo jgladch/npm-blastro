@@ -6,7 +6,7 @@
   > Blastro will generate ephemeris data for planetary bodies for any given date and location. This data can be used for astronomical and astrological pursuits.
 
 ## Contributing ##
-> This is a barebones implementation of one of Ole Nielsen's ephemeris functions. I plan to continue to develop this module and aim to create the standard for javascript ephemerides.
+> This is a barebones implementation of one of Ole Nielsen's ephemeris functions. I plan to continue to develop this module and aim to create the standard for javascript ephemerides. If you would like to contribute, please issue a pull request.
 
 ## Usage ##
 > Currently, this module exports a single function (returnAllPlanets). The single argument to this function is an object in the following format:
