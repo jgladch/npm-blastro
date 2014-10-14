@@ -1,6 +1,6 @@
 {
   "name": "blastro",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Node module to generate planetary ephemeris data for a given date and location. This module repurposes code created by Ole Nielsen in 2002 and Peter Hayes in 1999.",
   "main": "blastro.js",
   "scripts": {
