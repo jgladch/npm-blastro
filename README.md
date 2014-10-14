@@ -1,12 +1,15 @@
-# Blastro #
+# blastro #
 
 > A Node module for generating planetary ephemeris data for a given date and location. This module repurposes code originally published by Ole Nielsen in 2002 and Peter Hayes in 1999.
 
 ## Summary ##
-  > Blastro will generate ephemeris data for planetary bodies for any given date and location. This data can be used for astronomical and astrological pursuits.
+  > Blastro will generate ephemeris data for planetary bodies for any given date and location. This data can be used for astronomical and astrological interests.
 
 ## Contributing ##
 > This is a barebones implementation of one of Ole Nielsen's ephemeris functions. I plan to continue to develop this module and aim to create the standard for javascript ephemerides. If you would like to contribute, please issue a pull request.
+
+## Installation ##
+> To install this module, simply run: <pre><code>npm install blastro</code></pre>
 
 ## Usage ##
 > Currently, this module exports a single function (returnAllPlanets). The single argument to this function is an object in the following format:
